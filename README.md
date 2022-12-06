@@ -1,2 +1,0 @@
-# WeatherAppM
- Weather

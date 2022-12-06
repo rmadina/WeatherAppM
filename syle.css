@@ -1,0 +1,121 @@
+header{
+
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: #002244;
+}
+
+button{
+    cursor: pointer;
+    background-color: #002244;
+    color: white;
+
+}
+
+.weather-main{
+
+    width: 100%;
+    /* height: 80vh; */
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.weather-main .main-inside{
+    color: black;
+
+    width: 45%;
+    /* height: 80%; */
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.weather-main .main-inside .insideCity{
+    width:100%;
+    /* height: 30%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-main .main-inside .insideCity .cityInputs{
+
+    width: 50%;
+    border: 3px solid #002244;
+
+}
+
+.weather-main .main-inside .insideCoord{
+    width:100%;
+    /* height: 30%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-main .main-inside .insideCoord .coordInputs{
+
+    width: 50%;
+    border: 3px solid #002244;
+
+}
+.weather-main .main-inside h4{
+    padding: 10px 0;
+}
+.weather-main .main-inside label{
+    font-size: 1.5em;
+}
+
+.weather-main .main-inside input{
+    height: 20px;
+    margin: 10px 0;
+}
+
+.weather-main .main-inside button{
+
+    padding: 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 15px ;
+}
+
+
+#weather-details{
+    background-color: white;
+    border: 1px solid red;
+
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: -250px;
+
+    transition: .8s ease;
+}
+
+#weather-details .closeDetails{
+
+    font-size: 0.8em;
+    background-color: #002244;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+#weather-details.visibleDetails{
+    top:10%;
+}

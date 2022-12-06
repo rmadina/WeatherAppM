@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="syle.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <h2>Welcome to the Weather App</h2>
+    </header>
+
+    <div class="weather-main">
+
+        <div class="main-inside">
+            <div class="insideCity">
+                <div class="cityInputs">
+                    <label for="cityName">Enter City Name Here :</label>
+                    <br>
+                    <input type="text" id="cityName" placeholder="City">
+                    <br>
+                    <button id="submitCity">Submit</button>
+                </div>
+                
+            </div>
+            
+
+            <h4>OR</h4>
+            
+            <div class="insideCoord">
+                <div class="coordInputs">
+                    <label for="latitude">Enter Latitude Here :</label>
+                    <br>
+                    <input type="text" id="latitude" placeholder="Latitude">
+                    <br>
+                    <label for="longitude">Enter Longitude Here :</label>
+                    <br>
+                    <input type="text" id="longitude" placeholder="Longitude">
+                    <br>
+                    <button id="submitCoord">
+                        Submit
+                    </button>
+                </div>
+                
+            </div>
+
+            <h4>OR</h4>
+
+
+            <div class="insideAuto">
+                <button id="autoBtn">Find by My Location</button>
+            </div>
+            
+
+        </div>
+
+       
+
+        <div id="weather-details" >
+
+        </div>
+    
+
+
+
+    </div>
+
+    
+
+    <script src="main.js"></script>
+</body>
+
+</html>
